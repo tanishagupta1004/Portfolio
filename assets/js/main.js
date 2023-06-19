@@ -116,3 +116,12 @@ const sr=ScrollReveal({
 sr.reveal('.home__data')
 sr.reveal('.home__handle', {delay:700})
 sr.reveal('.home__social, .home__scroll', {delay:900, origin:"bottom"})
+
+
+function loadVideo() {
+    var videoContainer = document.getElementById("video-container");
+    var videoSource = document.getElementById("video-source");
+    
+    videoSource.src = "assets/img/employeePowerBI.mp4";
+    videoContainer.style.display = "block";
+  }
